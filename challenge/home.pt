@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Challenge!</title>
+</head>
+<body>
+${name}
+<p>Session accesses: ${counter}</p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Challenge!</title>
+</head>
+<body>
+<ul tal:repeat="item list" >
+    <li>Request ${item.uid} to page "${item.page}" made by session ${item.session_id} at ${item.datetime}</li>
+</ul>
+<p>Session accesses:  ${counter}</p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+pyramid
+waitress
+pyramid_chameleon
+deform
+sqlalchemy
+pyramid_tm
+zope.sqlalchemy

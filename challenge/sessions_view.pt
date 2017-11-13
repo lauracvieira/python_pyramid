@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Challenge!</title>
+</head>
+<body>
+<ul tal:repeat="item list" >
+    <li>Session ${item.uid}: ${item.info}</li>
+</ul>
+<p>Session accesses: ${counter}</p>
+</body>
+</html>
